@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Cheadfile/Cheadfile.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Cpreprocessor/Cpreprocessor.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Cunion/Cunion.xcodeproj">
    </FileRef>
    <FileRef
