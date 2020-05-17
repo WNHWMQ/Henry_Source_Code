@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Cunion/Cunion.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Cstruct/Cstruct.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Cstring/Cstring.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Cpointer/Cpointer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Cfile/Cfile.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Cenum/Cenum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Cbitfield/Cbitfield.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carray/Carray.xcodeproj">
+   </FileRef>
+</Workspace>
