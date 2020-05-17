@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Cfibonaci/Cfibonaci.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Cheadfile/Cheadfile.xcodeproj">
    </FileRef>
    <FileRef
