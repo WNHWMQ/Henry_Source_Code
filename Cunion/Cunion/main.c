@@ -11,23 +11,27 @@
  
 union Data
 {
-   int i;
-   float f;
-   char  str[20];
+    int i;
+    float f;
+    char  str[20];
 };//定义一个带有多成员的共用体，但是任何时候只能有一个成员带有值
  
 int main( )
 {
-   union Data data;
+    union Data data;
  
-   data.i = 10;
-   printf( "data.i : %d\n", data.i);
+    data.i = 10;
+    printf( "data.i : %d\n", data.i);
    
-   data.f = 220.5;
-   printf( "data.f : %f\n", data.f);
+    data.f = 220.5;
+    printf( "data.f : %.1f\n", data.f);
    
-   strcpy( data.str, "C Programming");
-   printf( "data.str : %s\n", data.str);
+    strcpy( data.str, "C Programming");
+    printf( "data.str : %s\n\n", data.str);
+    
+    printf( "data.i : %d\n", data.i);
+    printf( "data.f : %.1f\n", data.f);
+    printf( "data.str : %s\n", data.str);
  
-   return 0;
+    return 0;
 }

@@ -15,7 +15,7 @@ int max(int x, int y)
 }
 
 // 回调函数
-void populate_array(int *array, size_t arraySize, int (*getNextValue)(void))
+void populate_array(int *array, size_t arraySize, int (*getNextValue)())
 {
     for (size_t i=0; i<arraySize; i++)
         array[i] = getNextValue();
