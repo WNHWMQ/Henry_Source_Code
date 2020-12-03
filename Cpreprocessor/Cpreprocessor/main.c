@@ -17,7 +17,7 @@
    #define MESSAGE "You wish!"
 #endif
 
-//传递了 -DDEBUG 开关量,方便调试
+//传递了 DEBUG 开关量,方便调试
 #ifdef DEBUG
    /* Your debugging statements here */
 #endif
